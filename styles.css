@@ -1,0 +1,141 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #9ad79b;
+}
+
+header {
+  /* position: fixed; */
+  border-style: dashed;
+  border-width: 1px;
+  background-color: black;
+  width: 100%;
+  padding: 7px;
+  padding-top: 3px;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+.content {
+  border-style: dashed;
+  border-width: 1px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-top: 12px;
+}
+
+.content > h2 {
+  font-size: 17.4px;
+  margin-top: 45;
+}
+
+.content > p,
+.content > button {
+  font-size: 14px;
+}
+
+.content > button {
+  font-size: 10px;
+  margin-bottom: 1px;
+}
+
+.content > p {
+  font-size: 12px;
+}
+
+.sidebar {
+  border-style: dashed;
+  border-width: 1px;
+padding-bottom: 2.7px;
+  margin-left: 92%;
+  margin-top: 16.5px;
+  margin-bottom: 1px;
+}
+
+.sidebar > h3 {
+  /* font-size: 14px; */
+  font-size: 12px;
+  margin-left: 13px;
+}
+
+.sidebar ul li {
+  /* font-size: 12px; */
+  font-size: 10px;
+  padding: 1px;
+}
+
+li {
+  border-style: dashed;
+  border-width: 1px;
+}
+
+ul {
+  padding-left: 10px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  margin-left: 3px;
+}
+
+.features {
+  border-style: dashed;
+  border-width: 1px;
+  text-align: center;
+  margin-top: 18px;
+ padding-bottom: 10px;
+  background-color: darkmagenta;
+}
+
+.features > h2 {
+  font-size: 18px;
+  background-color: coral;
+}
+
+.feature > p {
+  font-size: 11px;
+  background-color: brown;
+}
+
+.feature > span {
+  font-size: 15px;
+  background-color: blue;
+}
+
+.feature > button {
+  font-size: 9px;
+}
+
+.feature{
+    background-color: darkslategrey;
+}
+
+footer {
+  border-style: dashed;
+  border-width: 1px;
+  position: sticky;
+  text-align: center;
+  padding-bottom: 13.5px;
+  padding-top: 16px;
+  margin-top: 182px;
+  margin-bottom: 8px;
+}
+
+footer>p{
+    font-size: 12px;
+}
