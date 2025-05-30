@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  /* position: fixed; */
+  top: 0;
   border-style: dashed;
   border-width: 1px;
   background-color: black;
@@ -28,114 +28,103 @@ header {
 }
 
 h1 {
-  font-size: 23px;
+  font-size: 26px;
 }
 
 .content {
   border-style: dashed;
   border-width: 1px;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  padding-top: 12px;
+  margin-top: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-top: 14px;
 }
 
 .content > h2 {
-  font-size: 17.4px;
-  margin-top: 45;
-}
-
-.content > p,
-.content > button {
-  font-size: 14px;
-}
-
-.content > button {
-  font-size: 10px;
-  margin-bottom: 1px;
+  font-size: 19px;
 }
 
 .content > p {
-  font-size: 12px;
+  position: relative;
+  bottom: 3px;
+  font-size: 13px;
+}
+
+.content > button {
+  position: relative;
+  bottom: 8px;
+  font-size: 10.5px;
 }
 
 .sidebar {
   border-style: dashed;
   border-width: 1px;
-padding-bottom: 2.7px;
+  padding-top: 15px;
+  padding-left: 3px;
   margin-left: 92%;
-  margin-top: 16.5px;
-  margin-bottom: 1px;
+  margin-right: 10px;
+  margin-top: 18px;
 }
 
 .sidebar > h3 {
-  /* font-size: 14px; */
-  font-size: 12px;
-  margin-left: 13px;
+  font-size: 15px;
+  margin-left: 3px;
 }
 
 .sidebar ul li {
-  /* font-size: 12px; */
-  font-size: 10px;
-  padding: 1px;
-}
-
-li {
-  border-style: dashed;
-  border-width: 1px;
-}
-
-ul {
-  padding-left: 10px;
-  padding-bottom: 3px;
-  padding-top: 3px;
-  margin-left: 3px;
+  position: relative;
+  left: 5px;
+  bottom: 2px;
+  font-size: 13px;
+  margin-right: 60px;
 }
 
 .features {
   border-style: dashed;
   border-width: 1px;
   text-align: center;
-  margin-top: 18px;
- padding-bottom: 10px;
-  background-color: darkmagenta;
+  padding-top: 10px;
+  margin-top: 15px;
 }
 
 .features > h2 {
-  font-size: 18px;
-  background-color: coral;
+  margin-top: 14px;
+  margin-left: 5px;
+  font-size: 18.8px;
+  position: relative;
+  bottom: 9px;
 }
 
 .feature > p {
-  font-size: 11px;
-  background-color: brown;
+  bottom: 10.8px;
+  font-size: 12.5px;
 }
 
 .feature > span {
+  position: relative;
+  left: 8px;
+  bottom: 9px;
   font-size: 15px;
-  background-color: blue;
 }
 
 .feature > button {
-  font-size: 9px;
-}
-
-.feature{
-    background-color: darkslategrey;
+  position: relative;
+  bottom: 15.5px;
+  left: 8px;
+  font-size: 10px;
 }
 
 footer {
+  width: 100%;
   border-style: dashed;
   border-width: 1px;
   position: sticky;
   text-align: center;
-  padding-bottom: 13.5px;
-  padding-top: 16px;
-  margin-top: 182px;
-  margin-bottom: 8px;
+  padding-bottom: 16px;
+  padding-top: 13px;
+  margin-top: 180px;
 }
 
-footer>p{
-    font-size: 12px;
+footer > p {
+  font-size: 13px;
 }
